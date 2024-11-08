@@ -1,0 +1,1335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PresentationManager addon results conversion to Presentation objects getContent returns content 1`] = `
+Object {
+  "contentSet": Array [
+    Object {
+      "classInfo": Object {
+        "id": "0x859f000000fede",
+        "label": "cross-platform compressing",
+        "name": "Chicken",
+      },
+      "displayValues": Object {
+        "Uzbekistan": "Massachusetts technologies",
+      },
+      "imageId": "5ad62fe9-3007-40cc-9951-3043c07a316f",
+      "labelDefinition": Object {
+        "displayValue": "Handmade",
+        "rawValue": "Cotton",
+        "typeName": "string",
+      },
+      "mergedFieldNames": Array [],
+      "primaryKeys": Array [
+        Object {
+          "className": "throughput",
+          "id": "0xb1d10000003603",
+        },
+      ],
+      "values": Object {
+        "Uzbekistan": "Generic pink Licensed",
+      },
+    },
+  ],
+  "descriptor": Object {
+    "categories": Array [
+      Object {
+        "description": "Test category description",
+        "expand": false,
+        "label": "Test Category",
+        "name": "test-category",
+        "priority": 0,
+      },
+    ],
+    "classesMap": Object {
+      "0x1": Object {
+        "label": "Class Label",
+        "name": "SchemaName:ClassName",
+      },
+    },
+    "connectionId": "",
+    "contentFlags": 0,
+    "displayType": "",
+    "fields": Array [
+      Object {
+        "category": "test-category",
+        "editor": undefined,
+        "extendedData": undefined,
+        "isReadonly": false,
+        "label": "Simple Field",
+        "name": "Uzbekistan",
+        "priority": 0,
+        "renderer": undefined,
+        "type": Object {
+          "typeName": "string",
+          "valueFormat": "Primitive",
+        },
+      },
+    ],
+    "selectClasses": Array [
+      Object {
+        "isSelectPolymorphic": false,
+        "selectClassInfo": "0x1",
+      },
+    ],
+  },
+}
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContent returns content for BisCore:Element instances when concrete key is found 1`] = `
+Object {
+  "contentSet": Array [
+    Object {
+      "classInfo": Object {
+        "id": "0x3b8400000029b4",
+        "label": "mission-critical mobile",
+        "name": "Solutions",
+      },
+      "displayValues": Object {
+        "Investor": "protocol Credit Card Account",
+      },
+      "imageId": "56fa49e9-7856-4470-9e9b-b341dbd1167c",
+      "labelDefinition": Object {
+        "displayValue": "Security",
+        "rawValue": "syndicate",
+        "typeName": "string",
+      },
+      "mergedFieldNames": Array [],
+      "primaryKeys": Array [
+        Object {
+          "className": "Borders",
+          "id": "0xe44c0000007be8",
+        },
+      ],
+      "values": Object {
+        "Investor": "RAM",
+      },
+    },
+  ],
+  "descriptor": Object {
+    "categories": Array [
+      Object {
+        "description": "Test category description",
+        "expand": false,
+        "label": "Test Category",
+        "name": "test-category",
+        "priority": 0,
+      },
+    ],
+    "classesMap": Object {
+      "0x1": Object {
+        "label": "Class Label",
+        "name": "SchemaName:ClassName",
+      },
+    },
+    "connectionId": "",
+    "contentFlags": 0,
+    "displayType": "",
+    "fields": Array [
+      Object {
+        "category": "test-category",
+        "editor": undefined,
+        "extendedData": undefined,
+        "isReadonly": false,
+        "label": "Simple Field",
+        "name": "Investor",
+        "priority": 0,
+        "renderer": undefined,
+        "type": Object {
+          "typeName": "string",
+          "valueFormat": "Primitive",
+        },
+      },
+    ],
+    "selectClasses": Array [
+      Object {
+        "isSelectPolymorphic": false,
+        "selectClassInfo": "0x1",
+      },
+    ],
+  },
+}
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContent returns content for BisCore:Element instances when concrete key is not found 1`] = `
+Object {
+  "contentSet": Array [
+    Object {
+      "classInfo": Object {
+        "id": "0xe89e00000082d3",
+        "label": "Borders Pennsylvania",
+        "name": "Developer",
+      },
+      "displayValues": Object {
+        "Virginia": "Expressway Avon Valley",
+      },
+      "imageId": "c36b205f-f9eb-4eb5-b00d-da61efed8ad3",
+      "labelDefinition": Object {
+        "displayValue": "Electronics",
+        "rawValue": "composite",
+        "typeName": "string",
+      },
+      "mergedFieldNames": Array [],
+      "primaryKeys": Array [
+        Object {
+          "className": "Sharable",
+          "id": "0xc5130000013a68",
+        },
+      ],
+      "values": Object {
+        "Virginia": "Spain back up PNG",
+      },
+    },
+  ],
+  "descriptor": Object {
+    "categories": Array [
+      Object {
+        "description": "Test category description",
+        "expand": false,
+        "label": "Test Category",
+        "name": "test-category",
+        "priority": 0,
+      },
+    ],
+    "classesMap": Object {
+      "0x1": Object {
+        "label": "Class Label",
+        "name": "SchemaName:ClassName",
+      },
+    },
+    "connectionId": "",
+    "contentFlags": 0,
+    "displayType": "",
+    "fields": Array [
+      Object {
+        "category": "test-category",
+        "editor": undefined,
+        "extendedData": undefined,
+        "isReadonly": false,
+        "label": "Simple Field",
+        "name": "Virginia",
+        "priority": 0,
+        "renderer": undefined,
+        "type": Object {
+          "typeName": "string",
+          "valueFormat": "Primitive",
+        },
+      },
+    ],
+    "selectClasses": Array [
+      Object {
+        "isSelectPolymorphic": false,
+        "selectClassInfo": "0x1",
+      },
+    ],
+  },
+}
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContent returns content when descriptor overrides are passed instead of descriptor 1`] = `
+Object {
+  "contentSet": Array [
+    Object {
+      "classInfo": Object {
+        "id": "0x289f000000758a",
+        "label": "Up-sized Delaware Plastic",
+        "name": "Chair",
+      },
+      "displayValues": Object {
+        "6th generation": "Intelligent Fresh Cheese copying Pass",
+      },
+      "imageId": "bde282e5-f116-4ef0-bb8b-1fa57dd96dc3",
+      "labelDefinition": Object {
+        "displayValue": "alarm",
+        "rawValue": "Mobility",
+        "typeName": "string",
+      },
+      "mergedFieldNames": Array [],
+      "primaryKeys": Array [
+        Object {
+          "className": "Multi-tiered",
+          "id": "0x13842000000ae4d",
+        },
+      ],
+      "values": Object {
+        "6th generation": "Checking Account United States of America",
+      },
+    },
+  ],
+  "descriptor": Object {
+    "categories": Array [
+      Object {
+        "description": "Test category description",
+        "expand": false,
+        "label": "Test Category",
+        "name": "test-category",
+        "priority": 0,
+      },
+    ],
+    "classesMap": Object {
+      "0x1": Object {
+        "label": "Class Label",
+        "name": "SchemaName:ClassName",
+      },
+    },
+    "connectionId": "",
+    "contentFlags": 0,
+    "displayType": "test",
+    "fields": Array [],
+    "selectClasses": Array [
+      Object {
+        "isSelectPolymorphic": false,
+        "selectClassInfo": "0x1",
+      },
+    ],
+  },
+}
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContent returns content without formatting 1`] = `
+Object {
+  "contentSet": Array [
+    Object {
+      "classInfo": Object {
+        "id": "0x10f000000e465",
+        "label": "Cambridgeshire asymmetric SDD",
+        "name": "optimizing",
+      },
+      "displayValues": Object {},
+      "imageId": "bad90675-1cd6-4a1c-9a48-976928bf2c4c",
+      "labelDefinition": Object {
+        "displayValue": "Electronics",
+        "rawValue": "Intelligent Plastic Keyboard",
+        "typeName": "string",
+      },
+      "mergedFieldNames": Array [],
+      "primaryKeys": Array [
+        Object {
+          "className": "dot-com",
+          "id": "0x137ba0000004451",
+        },
+      ],
+      "values": Object {
+        "e-markets": 1.234,
+      },
+    },
+  ],
+  "descriptor": Object {
+    "categories": Array [
+      Object {
+        "description": "Test category description",
+        "expand": false,
+        "label": "Test Category",
+        "name": "test-category",
+        "priority": 0,
+      },
+    ],
+    "classesMap": Object {
+      "0x1": Object {
+        "label": "Class Label",
+        "name": "SchemaName:ClassName",
+      },
+    },
+    "connectionId": "",
+    "contentFlags": 0,
+    "displayType": "test",
+    "fields": Array [
+      Object {
+        "category": "test-category",
+        "editor": undefined,
+        "extendedData": undefined,
+        "isReadonly": false,
+        "label": "Properties Field",
+        "name": "e-markets",
+        "priority": 0,
+        "properties": Array [
+          Object {
+            "property": Object {
+              "classInfo": "0x1",
+              "name": "PropertyName",
+              "type": "string",
+            },
+          },
+        ],
+        "renderer": undefined,
+        "type": Object {
+          "typeName": "double",
+          "valueFormat": "Primitive",
+        },
+      },
+    ],
+    "selectClasses": Array [
+      Object {
+        "isSelectPolymorphic": false,
+        "selectClassInfo": "0x1",
+      },
+    ],
+  },
+}
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContent returns formatted content 1`] = `
+Object {
+  "contentSet": Array [
+    Object {
+      "classInfo": Object {
+        "id": "0x14a1300000029c1",
+        "label": "generating IB back-end",
+        "name": "bypass",
+      },
+      "displayValues": Object {
+        "HTTP": "1.23",
+      },
+      "imageId": "9124abde-51a0-469c-83c9-93b31596571d",
+      "labelDefinition": Object {
+        "displayValue": "payment",
+        "rawValue": "mesh",
+        "typeName": "string",
+      },
+      "mergedFieldNames": Array [],
+      "primaryKeys": Array [
+        Object {
+          "className": "Legacy",
+          "id": "0x1119c00000171d2",
+        },
+      ],
+      "values": Object {
+        "HTTP": 1.234,
+      },
+    },
+  ],
+  "descriptor": Object {
+    "categories": Array [
+      Object {
+        "description": "Test category description",
+        "expand": false,
+        "label": "Test Category",
+        "name": "test-category",
+        "priority": 0,
+      },
+    ],
+    "classesMap": Object {
+      "0x1": Object {
+        "label": "Class Label",
+        "name": "SchemaName:ClassName",
+      },
+    },
+    "connectionId": "",
+    "contentFlags": 0,
+    "displayType": "test",
+    "fields": Array [
+      Object {
+        "category": "test-category",
+        "editor": undefined,
+        "extendedData": undefined,
+        "isReadonly": false,
+        "label": "Properties Field",
+        "name": "HTTP",
+        "priority": 0,
+        "properties": Array [
+          Object {
+            "property": Object {
+              "classInfo": "0x1",
+              "name": "PropertyName",
+              "type": "string",
+            },
+          },
+        ],
+        "renderer": undefined,
+        "type": Object {
+          "typeName": "double",
+          "valueFormat": "Primitive",
+        },
+      },
+    ],
+    "selectClasses": Array [
+      Object {
+        "isSelectPolymorphic": false,
+        "selectClassInfo": "0x1",
+      },
+    ],
+  },
+}
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContent returns localized content 1`] = `
+Object {
+  "contentSet": Array [
+    Object {
+      "classInfo": Object {
+        "id": "0xd7cd000000a73e",
+        "label": "orchestrate TCP Auto Loan Account",
+        "name": "Nepalese Rupee",
+      },
+      "displayValues": Object {
+        "Legacy": "Not specified",
+      },
+      "imageId": "f4ef32e7-726b-4d52-88e8-f4565aafb241",
+      "labelDefinition": Object {
+        "displayValue": "Not specified",
+        "rawValue": "Not specified",
+        "typeName": "string",
+      },
+      "mergedFieldNames": Array [],
+      "primaryKeys": Array [
+        Object {
+          "className": "programming",
+          "id": "0xcd1c000000953e",
+        },
+      ],
+      "values": Object {
+        "Legacy": "Not specified",
+      },
+    },
+  ],
+  "descriptor": Object {
+    "categories": Array [
+      Object {
+        "description": "Test category description",
+        "expand": false,
+        "label": "Not specified",
+        "name": "test-category",
+        "priority": 0,
+      },
+    ],
+    "classesMap": Object {
+      "0x1": Object {
+        "label": "Class Label",
+        "name": "SchemaName:ClassName",
+      },
+    },
+    "connectionId": "",
+    "contentFlags": 0,
+    "displayType": "",
+    "fields": Array [
+      Object {
+        "category": "test-category",
+        "editor": undefined,
+        "extendedData": undefined,
+        "isReadonly": false,
+        "label": "Not specified",
+        "name": "Legacy",
+        "priority": 0,
+        "renderer": undefined,
+        "type": Object {
+          "typeName": "string",
+          "valueFormat": "Primitive",
+        },
+      },
+    ],
+    "selectClasses": Array [
+      Object {
+        "isSelectPolymorphic": false,
+        "selectClassInfo": "0x1",
+      },
+    ],
+  },
+}
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContentDescriptor returns content descriptor 1`] = `
+Object {
+  "categories": Array [
+    Object {
+      "description": "Test category description",
+      "expand": false,
+      "label": "Test Category",
+      "name": "test-category",
+      "priority": 0,
+    },
+  ],
+  "classesMap": Object {
+    "0x1": Object {
+      "label": "Source",
+      "name": "source:class",
+    },
+    "0x1054a000001245d": Object {
+      "label": "Rustic Metal Fish Automotive Cuban Peso Peso Convertible",
+      "name": "Barbados",
+    },
+    "0x2": Object {
+      "label": "Target",
+      "name": "target:class",
+    },
+    "0x3": Object {
+      "label": "Relationship",
+      "name": "relationship:class",
+    },
+    "0xab690000009ba9": Object {
+      "label": "back-end",
+      "name": "auxiliary",
+    },
+    "0xea7d000000f2b6": Object {
+      "label": "Assurance turquoise navigating",
+      "name": "Berkshire",
+    },
+  },
+  "connectionId": "d61dcbd0-3355-426a-9ebf-3eadccd4b8be",
+  "contentFlags": 0,
+  "displayType": "withdrawal",
+  "fields": Array [
+    Object {
+      "category": "test-category",
+      "editor": Object {
+        "name": "multi-byte",
+        "params": Object {
+          "some_param": 17857,
+        },
+      },
+      "extendedData": undefined,
+      "isReadonly": false,
+      "label": "generating",
+      "name": "Primitive property field with editor",
+      "priority": 2036,
+      "properties": Array [
+        Object {
+          "property": Object {
+            "classInfo": "0x1",
+            "enumerationInfo": Object {
+              "choices": Array [
+                Object {
+                  "label": "Games withdrawal",
+                  "value": "27ad4616-5582-41da-b1ef-5896d49bacba",
+                },
+                Object {
+                  "label": "payment morph Congo",
+                  "value": "b4e62d6b-c243-4b63-aa44-6b6bcee422bd",
+                },
+              ],
+              "isStrict": false,
+            },
+            "name": "Practical",
+            "type": "string",
+          },
+        },
+      ],
+      "renderer": undefined,
+      "type": Object {
+        "typeName": "string",
+        "valueFormat": "Primitive",
+      },
+    },
+    Object {
+      "category": "test-category",
+      "editor": undefined,
+      "extendedData": undefined,
+      "isReadonly": true,
+      "label": "bus Strategist Facilitator",
+      "name": "Complex array of structs property field",
+      "priority": 26470,
+      "properties": Array [
+        Object {
+          "property": Object {
+            "classInfo": "0x1",
+            "kindOfQuantity": Object {
+              "label": "Accounts backing up",
+              "name": "Avon",
+              "persistenceUnit": "Senior",
+            },
+            "name": "Tennessee",
+            "type": "double",
+          },
+        },
+      ],
+      "renderer": undefined,
+      "type": Object {
+        "memberType": Object {
+          "members": Array [
+            Object {
+              "label": "multi-byte",
+              "name": "CFA Franc BCEAO",
+              "type": Object {
+                "typeName": "string",
+                "valueFormat": "Primitive",
+              },
+            },
+            Object {
+              "label": "United States Minor Outlying Islands Fields",
+              "name": "Keys",
+              "type": Object {
+                "memberType": Object {
+                  "typeName": "string",
+                  "valueFormat": "Primitive",
+                },
+                "typeName": "string[]",
+                "valueFormat": "Array",
+              },
+            },
+          ],
+          "typeName": "SomeClass",
+          "valueFormat": "Struct",
+        },
+        "typeName": "string[]",
+        "valueFormat": "Array",
+      },
+    },
+    Object {
+      "actualPrimaryClassIds": Array [],
+      "autoExpand": true,
+      "category": "test-category",
+      "contentClassInfo": "0x1",
+      "editor": undefined,
+      "extendedData": undefined,
+      "isReadonly": false,
+      "label": "24/7 Home Loan Account stable",
+      "name": "Nested content field",
+      "nestedFields": Array [
+        Object {
+          "category": "test-category",
+          "editor": undefined,
+          "extendedData": undefined,
+          "isReadonly": true,
+          "label": "Avon Planner Ways",
+          "name": "Simple property field",
+          "priority": 27093,
+          "renderer": undefined,
+          "type": Object {
+            "typeName": "string",
+            "valueFormat": "Primitive",
+          },
+        },
+      ],
+      "pathToPrimaryClass": Array [
+        Object {
+          "isForwardRelationship": false,
+          "isPolymorphicRelationship": false,
+          "isPolymorphicTargetClass": false,
+          "relationshipInfo": "0x1054a000001245d",
+          "sourceClassInfo": "0xea7d000000f2b6",
+          "targetClassInfo": "0xab690000009ba9",
+        },
+      ],
+      "priority": 77648,
+      "relationshipMeaning": "RelatedInstance",
+      "renderer": undefined,
+      "type": Object {
+        "members": Array [
+          Object {
+            "label": "Integration web services",
+            "name": "Integration",
+            "type": Object {
+              "typeName": "string",
+              "valueFormat": "Primitive",
+            },
+          },
+        ],
+        "typeName": "transmitter",
+        "valueFormat": "Struct",
+      },
+    },
+  ],
+  "inputKeysHash": "56c8a034-328a-4ac5-bf67-c3c8fa1ad1ad",
+  "selectClasses": Array [
+    Object {
+      "isSelectPolymorphic": false,
+      "navigationPropertyClasses": Array [
+        Object {
+          "isForwardRelationship": false,
+          "isPolymorphicRelationship": false,
+          "isPolymorphicTargetClass": false,
+          "relationshipInfo": "0x3",
+          "sourceClassInfo": "0x1",
+          "targetClassInfo": "0x2",
+        },
+      ],
+      "pathFromInputToSelectClass": Array [
+        Object {
+          "isForwardRelationship": false,
+          "isPolymorphicRelationship": false,
+          "isPolymorphicTargetClass": false,
+          "relationshipInfo": "0x3",
+          "sourceClassInfo": "0x1",
+          "targetClassInfo": "0x2",
+        },
+      ],
+      "relatedInstancePaths": Array [
+        Array [
+          Object {
+            "isForwardRelationship": false,
+            "isPolymorphicRelationship": false,
+            "isPolymorphicTargetClass": false,
+            "relationshipInfo": "0x3",
+            "sourceClassInfo": "0x1",
+            "targetClassInfo": "0x2",
+          },
+        ],
+      ],
+      "relatedPropertyPaths": Array [
+        Array [
+          Object {
+            "isForwardRelationship": false,
+            "isPolymorphicRelationship": false,
+            "isPolymorphicTargetClass": false,
+            "relationshipInfo": "0x3",
+            "sourceClassInfo": "0x1",
+            "targetClassInfo": "0x2",
+          },
+        ],
+      ],
+      "selectClassInfo": "0x1",
+    },
+  ],
+}
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContentSet returns content set 1`] = `
+Array [
+  Object {
+    "classInfo": Object {
+      "id": "0xfef3000000b3cb",
+      "label": "Yuan Renminbi lime",
+      "name": "Multi-lateral",
+    },
+    "displayValues": Object {
+      "test field": "test display value",
+    },
+    "imageId": "image id",
+    "labelDefinition": Object {
+      "displayValue": "Argentine Peso",
+      "rawValue": "Functionality",
+      "typeName": "string",
+    },
+    "mergedFieldNames": Array [],
+    "primaryKeys": Array [
+      Object {
+        "className": "District",
+        "id": "0x406e0000001bdf",
+      },
+    ],
+    "values": Object {
+      "test field": "test value",
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContentSet returns content set for BisCore:Element instances when concrete key is found 1`] = `
+Array [
+  Object {
+    "classInfo": Object {
+      "id": "0x12f58000000306f",
+      "label": "lime Chips Centralized",
+      "name": "Regional",
+    },
+    "displayValues": Object {
+      "test field": "test display value",
+    },
+    "imageId": "test image id",
+    "labelDefinition": Object {
+      "displayValue": "Director",
+      "rawValue": "Refined",
+      "typeName": "string",
+    },
+    "mergedFieldNames": Array [],
+    "primaryKeys": Array [
+      Object {
+        "className": "Armenian Dram",
+        "id": "0x13e25000000ea94",
+      },
+    ],
+    "values": Object {
+      "test field": "test value",
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContentSet returns content set for BisCore:Element instances when concrete key is not found 1`] = `
+Array [
+  Object {
+    "classInfo": Object {
+      "id": "0x58d1000000eea3",
+      "label": "Corporate",
+      "name": "Money Market Account",
+    },
+    "displayValues": Object {
+      "test field": "test display value",
+    },
+    "imageId": "test image id",
+    "labelDefinition": Object {
+      "displayValue": "Nebraska",
+      "rawValue": "primary",
+      "typeName": "string",
+    },
+    "mergedFieldNames": Array [],
+    "primaryKeys": Array [
+      Object {
+        "className": "Steel",
+        "id": "0x1450c0000017be8",
+      },
+    ],
+    "values": Object {
+      "test field": "test value",
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContentSet returns content without formatting 1`] = `
+Array [
+  Object {
+    "classInfo": Object {
+      "id": "0x4c9d0000009d37",
+      "label": "e-tailers",
+      "name": "Seamless",
+    },
+    "displayValues": Object {},
+    "imageId": "test image id",
+    "labelDefinition": Object {
+      "displayValue": "neural",
+      "rawValue": "grey",
+      "typeName": "string",
+    },
+    "mergedFieldNames": Array [],
+    "primaryKeys": Array [
+      Object {
+        "className": "ability",
+        "id": "0x4776000000b65d",
+      },
+    ],
+    "values": Object {
+      "test field": 1.234,
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContentSet returns formatted content set 1`] = `
+Array [
+  Object {
+    "classInfo": Object {
+      "id": "0x185860000012371",
+      "label": "Human Optional Accounts",
+      "name": "holistic",
+    },
+    "displayValues": Object {
+      "test field": "1.23",
+    },
+    "imageId": "test image id",
+    "labelDefinition": Object {
+      "displayValue": "port",
+      "rawValue": "interactive",
+      "typeName": "string",
+    },
+    "mergedFieldNames": Array [],
+    "primaryKeys": Array [
+      Object {
+        "className": "Chair",
+        "id": "0x306d00000118e0",
+      },
+    ],
+    "values": Object {
+      "test field": 1.234,
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContentSet returns localized content set 1`] = `
+Array [
+  Object {
+    "classInfo": Object {
+      "id": "0x16d360000000546",
+      "label": "Personal Loan Account",
+      "name": "open-source",
+    },
+    "displayValues": Object {
+      "test field": "Not specified",
+    },
+    "imageId": "image id",
+    "labelDefinition": Object {
+      "displayValue": "Not specified",
+      "rawValue": "Not specified",
+      "typeName": "string",
+    },
+    "mergedFieldNames": Array [],
+    "primaryKeys": Array [
+      Object {
+        "className": "empower",
+        "id": "0xf4e7000000fcfa",
+      },
+    ],
+    "values": Object {
+      "test field": "Not specified",
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getContentSources returns content sources 1`] = `
+Array [
+  Object {
+    "isSelectPolymorphic": true,
+    "navigationPropertyClasses": Array [
+      Object {
+        "isForwardRelationship": true,
+        "relationshipInfo": Object {
+          "id": "0x456",
+          "label": "Class Two",
+          "name": "class2",
+        },
+        "sourceClassInfo": Object {
+          "id": "0x123",
+          "label": "Class One",
+          "name": "class1",
+        },
+        "targetClassInfo": Object {
+          "id": "0x789",
+          "label": "Class Three",
+          "name": "class3",
+        },
+      },
+    ],
+    "pathFromInputToSelectClass": Array [
+      Object {
+        "isForwardRelationship": true,
+        "relationshipInfo": Object {
+          "id": "0x456",
+          "label": "Class Two",
+          "name": "class2",
+        },
+        "sourceClassInfo": Object {
+          "id": "0x123",
+          "label": "Class One",
+          "name": "class1",
+        },
+        "targetClassInfo": Object {
+          "id": "0x789",
+          "label": "Class Three",
+          "name": "class3",
+        },
+      },
+    ],
+    "relatedInstancePaths": Array [
+      Array [
+        Object {
+          "isForwardRelationship": true,
+          "relationshipInfo": Object {
+            "id": "0x456",
+            "label": "Class Two",
+            "name": "class2",
+          },
+          "sourceClassInfo": Object {
+            "id": "0x123",
+            "label": "Class One",
+            "name": "class1",
+          },
+          "targetClassInfo": Object {
+            "id": "0x789",
+            "label": "Class Three",
+            "name": "class3",
+          },
+        },
+      ],
+    ],
+    "relatedPropertyPaths": Array [
+      Array [
+        Object {
+          "isForwardRelationship": true,
+          "relationshipInfo": Object {
+            "id": "0x456",
+            "label": "Class Two",
+            "name": "class2",
+          },
+          "sourceClassInfo": Object {
+            "id": "0x123",
+            "label": "Class One",
+            "name": "class1",
+          },
+          "targetClassInfo": Object {
+            "id": "0x789",
+            "label": "Class Three",
+            "name": "class3",
+          },
+        },
+      ],
+    ],
+    "selectClassInfo": Object {
+      "id": "0x123",
+      "label": "Class One",
+      "name": "class1",
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getFilteredNodePaths returns filtered node paths 1`] = `
+Array [
+  Object {
+    "children": Array [],
+    "filteringData": Object {
+      "childMatchesCount": 6721,
+      "matchesCount": 18930,
+    },
+    "index": 861,
+    "isMarked": true,
+    "node": Object {
+      "backColor": "rgb(
+    204,
+    226,
+    70
+  )",
+      "foreColor": "#A867F6",
+      "hasChildren": true,
+      "isCheckboxEnabled": false,
+      "isCheckboxVisible": false,
+      "isChecked": true,
+      "isEditable": false,
+      "isExpanded": true,
+      "isSelectionDisabled": false,
+      "key": Object {
+        "instanceKeys": Array [
+          Object {
+            "className": "Steel",
+            "id": "0x19a5000001511d",
+          },
+          Object {
+            "className": "auxiliary",
+            "id": "0xb4550000004334",
+          },
+        ],
+        "pathFromRoot": Array [
+          "bea34161-fd3f-4f8c-b903-5f8330662f47",
+          "039f81e0-6937-45ec-966a-a453243a981b",
+        ],
+        "type": "ECInstancesNode",
+        "version": 2,
+      },
+      "label": Object {
+        "displayValue": "withdrawal",
+        "rawValue": "Small",
+        "typeName": "string",
+      },
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getNodePaths returns node paths 1`] = `
+Array [
+  Object {
+    "children": Array [],
+    "index": 118,
+    "node": Object {
+      "backColor": "rgb(
+    143,
+    75,
+    113
+  )",
+      "foreColor": "#F60C4B",
+      "hasChildren": true,
+      "isCheckboxEnabled": true,
+      "isCheckboxVisible": true,
+      "isChecked": true,
+      "isEditable": false,
+      "isExpanded": true,
+      "isSelectionDisabled": false,
+      "key": Object {
+        "instanceKeys": Array [
+          Object {
+            "className": "Incredible",
+            "id": "0x12f930000017b44",
+          },
+          Object {
+            "className": "Extended",
+            "id": "0xd5a8000000c6af",
+          },
+        ],
+        "pathFromRoot": Array [
+          "4edc3570-8f07-4d6c-8dd6-8a7b1c2ff0f1",
+          "6636b107-ded2-4a66-a751-f89329656c97",
+        ],
+        "type": "ECInstancesNode",
+        "version": 2,
+      },
+      "label": Object {
+        "displayValue": "connect",
+        "rawValue": "Credit Card Account",
+        "typeName": "string",
+      },
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getNodes returns child nodes 1`] = `
+Array [
+  Object {
+    "key": Object {
+      "instanceKeys": Array [
+        Object {
+          "className": "enable",
+          "id": "0x13cb90000016d51",
+        },
+      ],
+      "pathFromRoot": Array [
+        "p1",
+      ],
+      "type": "ECInstancesNode",
+      "version": 1,
+    },
+    "label": Object {
+      "displayValue": "test2",
+      "rawValue": "test2",
+      "typeName": "string",
+    },
+  },
+  Object {
+    "key": Object {
+      "pathFromRoot": Array [
+        "p1",
+        "p3",
+      ],
+      "type": "type 2",
+      "version": 1,
+    },
+    "label": Object {
+      "displayValue": "test3",
+      "rawValue": "test3",
+      "typeName": "string",
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getNodes returns localized nodes 1`] = `
+Array [
+  Object {
+    "backColor": "backColor1",
+    "description": "description1",
+    "fontStyle": "fontStyle1",
+    "foreColor": "foreColor1",
+    "hasChildren": true,
+    "imageId": "img_1",
+    "isCheckboxEnabled": true,
+    "isCheckboxVisible": true,
+    "isChecked": true,
+    "isEditable": true,
+    "isExpanded": true,
+    "isSelectionDisabled": true,
+    "key": Object {
+      "pathFromRoot": Array [
+        "p1",
+        "p2",
+        "p3",
+      ],
+      "type": "type1",
+      "version": 1,
+    },
+    "label": Object {
+      "displayValue": "Not specified",
+      "rawValue": "Not specified",
+      "typeName": "string",
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getNodes returns root nodes 1`] = `
+Array [
+  Object {
+    "backColor": "backColor1",
+    "description": "description1",
+    "fontStyle": "fontStyle1",
+    "foreColor": "foreColor1",
+    "hasChildren": true,
+    "imageId": "img_1",
+    "isCheckboxEnabled": true,
+    "isCheckboxVisible": true,
+    "isChecked": true,
+    "isEditable": true,
+    "isExpanded": true,
+    "isSelectionDisabled": true,
+    "key": Object {
+      "pathFromRoot": Array [
+        "p1",
+        "p2",
+        "p3",
+      ],
+      "type": "type1",
+      "version": 1,
+    },
+    "label": Object {
+      "displayValue": "test1",
+      "rawValue": "test1",
+      "typeName": "string",
+    },
+  },
+  Object {
+    "backColor": "",
+    "description": "description2",
+    "fontStyle": "",
+    "foreColor": "",
+    "hasChildren": false,
+    "imageId": "",
+    "isCheckboxEnabled": false,
+    "isCheckboxVisible": false,
+    "isChecked": false,
+    "isEditable": false,
+    "isExpanded": false,
+    "isSelectionDisabled": false,
+    "key": Object {
+      "instanceKeys": Array [
+        Object {
+          "className": "Personal Loan Account",
+          "id": "0x671b0000017448",
+        },
+      ],
+      "pathFromRoot": Array [
+        "p1",
+      ],
+      "type": "ECInstancesNode",
+      "version": 1,
+    },
+    "label": Object {
+      "displayValue": "test2",
+      "rawValue": "test2",
+      "typeName": "string",
+    },
+  },
+  Object {
+    "key": Object {
+      "pathFromRoot": Array [
+        "p1",
+        "p3",
+      ],
+      "type": "some node",
+      "version": 1,
+    },
+    "label": Object {
+      "displayValue": "test2",
+      "rawValue": "test2",
+      "typeName": "string",
+    },
+  },
+]
+`;
+
+exports[`PresentationManager addon results conversion to Presentation objects getNodesDescriptor returns hierarchy level descriptor 1`] = `
+Object {
+  "categories": Array [
+    Object {
+      "description": "Test category description",
+      "expand": false,
+      "label": "Test Category",
+      "name": "test-category",
+      "priority": 0,
+    },
+  ],
+  "classesMap": Object {
+    "0x1": Object {
+      "label": "Class Label",
+      "name": "SchemaName:ClassName",
+    },
+  },
+  "connectionId": "",
+  "contentFlags": 0,
+  "displayType": "",
+  "fields": Array [],
+  "selectClasses": Array [
+    Object {
+      "isSelectPolymorphic": false,
+      "selectClassInfo": "0x1",
+    },
+  ],
+}
+`;

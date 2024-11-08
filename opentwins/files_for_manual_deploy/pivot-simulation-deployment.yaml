@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    name: pivot-rest-deploy
+  name: pivot-rest-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: pod-pivot-rest-deploy
+  template:
+    metadata:
+      labels:
+        name: pod-pivot-rest-deploy
+      name: pivot-rest-deploy
+    spec:
+      containers:
+      - image: ertis/ertis-rest-api-pivot:1.0.0
+        name: pivot-rest-deploy
+        env:
+        - name: KUBE_TOKEN
+          value: 
+        - name: KUBE_HOST
+          value: 
+        - name: IMAGE_NAME
+          value: ertis/ertis-pivot-runner:1.0.0
+        - name: DEPLOYMENT_NAME
+          value: pivot-rest-deploy
+        - name: NAMESPACE
+          value: 
+        ports:
+        - containerPort: 8001
+        imagePullPolicy: Always

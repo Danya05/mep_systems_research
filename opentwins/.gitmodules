@@ -1,0 +1,15 @@
+[submodule "components/extended-api-for-Eclipse-Ditto"]
+	path = components/extended-api-for-Eclipse-Ditto
+	url = https://github.com/ertis-research/extended-api-for-Eclipse-Ditto
+[submodule "components/kafka-ml-to-Eclipse-Ditto"]
+	path = components/kafka-ml-to-Eclipse-Ditto
+	url = https://github.com/ertis-research/kafkaml-to-Eclipse-Ditto
+[submodule "components/error-detection-for-Eclipse-Hono-with-Kafka-ML"]
+	path = components/error-detection-for-Eclipse-Hono-with-Kafka-ML
+	url = https://github.com/ertis-research/error-detection-for-Eclipse-Hono-with-Kafka-ML
+[submodule "components/unity-plugin-for-Grafana"]
+	path = components/unity-plugin-for-Grafana
+	url = https://github.com/ertis-research/unity-plugin-for-Grafana
+[submodule "components/digital-twins-plugin-for-Grafana"]
+	path = components/digital-twins-plugin-for-Grafana
+	url = https://github.com/ertis-research/digital-twins-plugin-for-Grafana
